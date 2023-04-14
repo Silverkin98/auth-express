@@ -17,16 +17,25 @@ Run on port 5000
 npm run start
 ```
 
+## Notes
+
 Registration endpoint is on
-' /api/auth/register '
+```
+/api/auth/register
+```
 it requires username, email and password which can be passed either as json with Content-Type header or via x-www-form-urlencoded
 
 Login Endpoint is on
-' /api/auth/login '
+```
+/api/auth/login
+```
 it requires username and password which can be passed either as json with Content-Type header or via x-www-form-urlencoded
 
 Get all users endpoint is on
-' /api/users/getall ' and is protected via a basic auth middleware, 
+```
+/api/users/getall
+```
+and is protected via a basic auth middleware, 
 so the request authorization header must be set as basic auth (Basic 'user and password encoded in base64' )
 
 The .env file should always be in the .gitignore but I left it visible since this is a demo that should never be used in a production environment.
