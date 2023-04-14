@@ -29,3 +29,5 @@ Get all users endpoint is on
 ' /api/users/getall ' and is protected via a basic auth middleware, 
 so the request authorization header must be set as basic auth (Basic 'user and password encoded in base64' )
 
+The .env file should always be in the .gitignore but I left it visible since this is a demo that should never be used in a production environment.
+
