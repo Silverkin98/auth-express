@@ -27,5 +27,5 @@ it requires username and password which can be passed either as json with Conten
 
 Get all users endpoint is on
 ' /api/users/getall ' and is protected via a basic auth middleware, 
-so the request authorization header must be set as basic auth (Basic <user and password encoded in base64> )
+so the request authorization header must be set as basic auth (Basic 'user and password encoded in base64' )
 
